@@ -1,0 +1,103 @@
+body {
+    margin-top: 0;
+    justify-content: center;
+    background-blend-mode: color;
+    background-color: #3bb300;
+    color: white;
+}
+
+header {
+    color: rgb(2, 49, 2);
+    margin: 0;
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+li {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    display: block;
+    transition: ease-in;
+    -webkit-transition: ease-in;
+    -moz-transition: ease-in;
+    -ms-transition: ease-in;
+    -o-transition: ease-in;
+}
+
+.navbar a:hover {
+    color: darkgreen;
+    transform: perspective(3deg);
+    -webkit-transform: perspective(3deg);
+    -moz-transform: perspective(3deg);
+    -ms-transform: perspective(3deg);
+    -o-transform: perspective(3deg);
+}
+
+.mainsect {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.image {
+    zoom: 130%;
+    max-height: 350px;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.about {
+    max-width: 500px;
+    max-height: 400px;
+    font-size: larger;
+}
+
+#skills {
+    margin-top: 70px;
+    font-size: larger;
+    margin-left: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.head {
+    grid-column: 1/3;
+    justify-content: center;
+}
+
+.box {
+    max-width: 500px;
+    justify-content: center;
+}
+
+footer {
+    height: 20%;
+    text-align: center;
+    padding-top: 20%;
+}

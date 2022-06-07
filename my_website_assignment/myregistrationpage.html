@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+</head>
+<link rel="stylesheet" href="myregistrationpage.css">
+
+<body>
+    <header>
+        <h1>
+            SYLVESTER'S DEN
+        </h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="myaboutpage.html">ABOUT</a></li>
+                <li><a href="myregistrationpage.html">REGISTER</a></li>
+                <li><a href="myloginpage.html">LOGIN</a></li>
+                <li><a href="mycontactpage.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="successpage.html">
+        <fieldset>
+            <legend>
+                <h2>Registration form</h2>
+            </legend>
+            <div> <label for="Username"></label><input type="text" placeholder="FIRSTNAME" name="uname" id="user" maxlength="16" required></div>
+            <div> <label for="Username"></label><input type="text" placeholder="LASTNAME" name="uname" id="user" maxlength="16" required></div>
+            <div> <label for="Username"></label><input type="text" placeholder="MIDDLE NAME(Optional)" name="uname" id="user" maxlength="16" required></div>
+            <div> <label for="Username"></label><input type="text" placeholder="ENTER USERNAME" name="uname" id="user" maxlength="16" minlength="5" required></div>
+            <div><label for="password"></label><input type="password" placeholder="ENTER PASSWORD" name="password" id="pass" pattern="[a-z],[0-9],[!@#$%^&*,.]" maxlength="16" minlength="8" title="use letters , numbers and special characters" required></div>
+            <div> <label for="Username"></label><input type="email" placeholder="ENTER EMAIL" name="uname" id="user" required></div>
+            <div>
+                <label for="nationality"><select name="nationality" id="nin" required>
+                    <option value="none">none</option>
+                    <option value="Burkinafaso">Burkinafaso</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Togo">Togo</option>
+                </select></label>
+            </div>
+            <div>
+                <label for="DOB"><input type="date" name="DOB" id="DB" placeholder="Date of Birth" max="2002-06-03" min="1960-06-03" required></label>
+            </div>
+            <div id="butnik">
+                <button type="submit">SIGN UP</button>
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <hr>
+        <h3>SITE INFORMATION</h3>
+        <P>NOTE: This is a test page created for the purpose of fufilling all the necessary requirements for the Zuri training</P>
+        <P>&copy;Sylvester's den 2022</P>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+body {
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+header {
+    color: rgb(2, 49, 2);
+    margin: 0;
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+li {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    display: block;
+    transition: ease-in;
+    -webkit-transition: ease-in;
+    -moz-transition: ease-in;
+    -ms-transition: ease-in;
+    -o-transition: ease-in;
+}
+
+.navbar a:hover {
+    color: darkgreen;
+    transform: perspective(3deg);
+    -webkit-transform: perspective(3deg);
+    -moz-transform: perspective(3deg);
+    -ms-transform: perspective(3deg);
+    -o-transform: perspective(3deg);
+}
+
+legend {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: yellowgreen;
+}
+
+fieldset {
+    max-width: 750px;
+}
+
+fieldset input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    font-size: 17px;
+    margin-top: 30px;
+    padding: 16px 8px;
+    display: inline-block;
+    border: 1px solid#ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+fieldset select {
+    width: 500px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+fieldset [type=date] {
+    width: 500px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button {
+    margin-top: 40px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: yellowgreen;
+    font-size: 15px;
+}
+
+footer {
+    height: 20%;
+    text-align: center;
+    padding-top: 20%;
+}
